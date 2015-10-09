@@ -2,13 +2,23 @@
 Trabajo en equipo con git
 __________________________
 
+Pregunta 52
+-----------
 
-Compilacion vs interpretacion: 
+	Compilacion vs interpretacion: 
 
-1.Un compilador es un programa informático que traduce un programa escrito en un lenguaje de programación a otro lenguaje de programación. Usualmente el segundo lenguaje es lenguaje de máquina, pero también puede ser un código intermedio (bytecode), o simplemente texto. Este proceso de traducción se conoce como compilación
+	1.Un compilador es un programa informático que traduce un programa escrito en un lenguaje de programación a otro lenguaje de programación. Usualmente el segundo lenguaje es lenguaje de máquina, pero también puede ser un código intermedio (bytecode), o simplemente texto. Este proceso de traducción se conoce como compilación
 
-2.En ciencias de la computación, intérprete o interpretador es un programa informático capaz de analizar y ejecutar otros programas. Los intérpretes se diferencian de los compiladores o de los ensambladores en que mientras estos traducen un programa desde su descripción en un lenguaje de programación al código de máquina del sistema, los intérpretes sólo realizan la traducción a medida que sea necesaria, típicamente, instrucción por instrucción, y normalmente no guardan el resultado de dicha traducción
+	2.En ciencias de la computación, intérprete o interpretador es un programa informático capaz de analizar y ejecutar otros programas. Los intérpretes se diferencian de los compiladores o de los ensambladores en que mientras estos traducen un programa desde su descripción en un lenguaje de programación al código de máquina del sistema, los intérpretes sólo realizan la traducción a medida que sea necesaria, típicamente, instrucción por instrucción, y normalmente no guardan el resultado de dicha traducción
 
 ***********************************************************************************************
 Bibliografía Programming Language Pragmatics. Michael L. Scott. Morgan Kaufmann. Introducction.
 ***********************************************************************************************
+
+
+Pregunta 59
+-----------
+
+	La principal diferencia es que el fichero con extensión .sh tiene declarado en la primera linea dónde esta situado en el intérprete en el sistema de archivos (/bin/sh) y en ruby no tenemos declarado donde está el interprete por lo que tenemos que ejecutar con la sentencia "ruby" antes del archivo HelloWorld.rb para solucionar esto podemos añadir donde esta el intérprete de ruby con el comando which ruby y añadirlo a la primera linea del fichero.
+	
+	ruta del intérprete: /usr/local/bin/ruby 
